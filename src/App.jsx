@@ -83,7 +83,7 @@ export default function App() {
             <span className="logo-greek">λόγος</span>
             <div className="logo-text">
               <h1>Bible Word Study</h1>
-              <p>Tracing the Golden Thread of Scripture</p>
+              <p>Greek &amp; Hebrew word analysis</p>
             </div>
           </div>
         </div>
