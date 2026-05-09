@@ -515,6 +515,218 @@ body {
   font-style: italic;
 }
 
+/* ── Articles Section ── */
+.articles-section {
+  margin-top: 72px;
+  padding-top: 56px;
+  border-top: 1px solid var(--border);
+}
+
+.articles-section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.articles-section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+}
+
+.articles-section-sub {
+  font-size: 0.97rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-family: system-ui, sans-serif;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.article-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 26px;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.article-card:hover {
+  border-color: var(--accent-dim);
+  background: var(--bg-card-hover);
+  transform: translateY(-2px);
+}
+
+.article-card-read-time {
+  font-size: 0.72rem;
+  font-family: system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+}
+
+.article-card-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+.article-card-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  font-family: system-ui, sans-serif;
+  flex: 1;
+}
+
+.article-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.article-card-author {
+  font-size: 0.8rem;
+  font-family: system-ui, sans-serif;
+  color: var(--text-muted);
+}
+
+.article-card-cta {
+  font-size: 0.8rem;
+  font-family: system-ui, sans-serif;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ── Article Detail View ── */
+.article-detail {
+  padding-top: 8px;
+}
+
+.back-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-bottom: 36px;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.back-btn:hover {
+  border-color: var(--accent-dim);
+  color: var(--accent);
+}
+
+.article-full {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.article-full-read-time {
+  font-size: 0.72rem;
+  font-family: system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.article-full-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.article-full-subtitle {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-family: system-ui, sans-serif;
+  margin-bottom: 24px;
+}
+
+.article-full-byline {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 28px;
+}
+
+.article-byline-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
+
+.article-byline-role {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: system-ui, sans-serif;
+}
+
+.article-full-divider {
+  height: 1px;
+  background: var(--border);
+  margin-bottom: 36px;
+}
+
+.article-full-body {
+  line-height: 1.85;
+}
+
+.article-para {
+  font-size: 1.02rem;
+  color: var(--text);
+  margin-bottom: 1.4em;
+  line-height: 1.85;
+}
+
+.article-para em {
+  color: var(--accent-light);
+  font-style: italic;
+}
+
+.article-para strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.article-subhead {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-top: 2.2em;
+  margin-bottom: 0.7em;
+  letter-spacing: -0.01em;
+  border-left: 3px solid var(--accent-dim);
+  padding-left: 14px;
+}
+
 /* ── Responsive ── */
 @media (max-width: 600px) {
   .search-row {
