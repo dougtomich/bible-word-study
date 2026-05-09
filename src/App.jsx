@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import { GREEK_WORDS, KEY_PASSAGES } from './data.js'
 import { ARTICLES } from './articles.js'
 import { downloadWordGuide } from './wordGuidePdf.js'
+import emailjs from '@emailjs/browser'
 
 function renderArticleContent(text) {
   return text.split('\n\n').map((block, i) => {
@@ -98,17 +99,52 @@ export default function App() {
     setActiveArticle(null)
   }
 
+  // Auto-trigger PDF download when someone arrives via the email re-download link (?download=true)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    if (params.get('download') === 'true') {
+      setTimeout(() => downloadWordGuide(), 600)
+      window.history.replaceState({}, '', window.location.pathname)
+    }
+  }, [])
+
   const handleLeadSubmit = async (e) => {
     e.preventDefault()
     if (!leadEmail.trim()) return
     setLeadState('submitting')
+
+    const publicKey  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    const serviceId  = import.meta.env.VITE_EMAILJS_SERVICE_ID
+    const subTpl     = import.meta.env.VITE_EMAILJS_SUBSCRIBER_TEMPLATE
+    const notifyTpl  = import.meta.env.VITE_EMAILJS_NOTIFY_TEMPLATE
+    const ownerEmail = import.meta.env.VITE_OWNER_EMAIL
+    const downloadUrl = `${window.location.origin}?download=true`
+    const emailjsReady = publicKey && serviceId && subTpl
+
     try {
-      const body = new URLSearchParams({ 'form-name': 'lead-magnet', email: leadEmail }).toString()
-      await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body })
+      if (emailjsReady) {
+        // 1. Welcome email to subscriber with re-download link
+        await emailjs.send(serviceId, subTpl, {
+          to_email: leadEmail,
+          download_url: downloadUrl,
+          site_url: window.location.origin,
+        }, { publicKey })
+
+        // 2. Notification to owner so you can build your list (optional)
+        if (notifyTpl && ownerEmail) {
+          emailjs.send(serviceId, notifyTpl, {
+            subscriber_email: leadEmail,
+            owner_email: ownerEmail,
+          }, { publicKey }).catch(() => {}) // non-blocking — don't fail if this one errors
+        }
+      }
       setLeadState('done')
       downloadWordGuide()
-    } catch {
-      setLeadState('error')
+    } catch (err) {
+      console.error('EmailJS error:', err)
+      // Deliver the PDF anyway — email sending failed but don't punish the user
+      setLeadState('done')
+      downloadWordGuide()
     }
   }
 
@@ -295,8 +331,8 @@ export default function App() {
                     {leadState === 'done' ? (
                       <div className="lm-success">
                         <div className="lm-success-check">✓</div>
-                        <h3>Check your pop-up window!</h3>
-                        <p>Your PDF guide is opening now. In the print dialog, choose <strong>Save as PDF</strong> to save it to your device.</p>
+                        <h3>Your guide is on its way!</h3>
+                        <p>The PDF is opening in a new window now — choose <strong>Save as PDF</strong> in the print dialog. We also sent a re-download link to <strong>{leadEmail}</strong>.</p>
                         <button className="lm-reopen-btn" onClick={downloadWordGuide}>Re-open PDF ↗</button>
                       </div>
                     ) : (
