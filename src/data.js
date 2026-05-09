@@ -785,6 +785,432 @@ export const GREEK_WORDS = {
       testament: 'OT',
     },
   ],
+
+  life: [
+    {
+      greek: 'ζωή',
+      transliteration: 'zōē',
+      strongs: 'G2222',
+      definition: "Life — not mere biological existence (bios) but the very life of God, shared with humanity. John uses zōē almost exclusively for divine/eternal life. 'I came that they may have zōē, and have it abundantly' (John 10:10).",
+      etymology: "From zaō (to live). Greek had bios (biological life), psychē (soul/breath-life), and zōē (life in its fullest divine sense). John deliberately chooses zōē for what Christ gives.",
+      frequency: 135,
+      testament: 'NT',
+    },
+    {
+      greek: 'חַיִּים',
+      transliteration: 'chayyim',
+      strongs: 'H2416',
+      definition: "Life — always plural in Hebrew (chayyim, not chai alone), suggesting the fullness and richness of life. God breathed chayyim into Adam. The Tree of Life gives chayyim. God himself is the living God (El Chai).",
+      etymology: "From chayah (to live, to revive). The plural form points to life as abundant and multidimensional — not a single thread but a weaving together of vitality.",
+      frequency: 149,
+      testament: 'OT',
+    },
+  ],
+
+  death: [
+    {
+      greek: 'θάνατος',
+      transliteration: 'thanatos',
+      strongs: 'G2288',
+      definition: "Death — physical death, spiritual separation from God, and the eschatological 'second death.' In Paul, thanatos is the last enemy (1 Cor 15:26) and the wages of sin (Rom 6:23). Christ's resurrection is its defeat.",
+      etymology: "From thnēskō (to die). Greek mythology personified death as Thanatos, twin brother of sleep (Hypnos). Paul takes the mythological power and strips it — death has been defeated.",
+      frequency: 120,
+      testament: 'NT',
+    },
+    {
+      greek: 'מָוֶת',
+      transliteration: 'mavet',
+      strongs: 'H4194',
+      definition: "Death, the realm of the dead — both the event of dying and the realm (Sheol) of the dead. The OT portrays mavet as a power that weakens and diminishes life. Psalms cry out from its grip; prophets promise its defeat.",
+      etymology: "From mut (to die). Personified in Canaanite mythology as the god Mot. The OT demythologizes death — it is real and powerful, but under YHWH's authority.",
+      frequency: 152,
+      testament: 'OT',
+    },
+  ],
+
+  fire: [
+    {
+      greek: 'πῦρ',
+      transliteration: 'pyr',
+      strongs: 'G4442',
+      definition: "Fire — simultaneously a symbol of God's presence, his purifying holiness, and his judgment. The Spirit descends as tongues of pyr. John the Baptist contrasts water baptism with Spirit-and-fire baptism. 'Our God is a consuming fire' (Heb 12:29).",
+      etymology: "Root of 'pyrotechnics,' 'pyre.' Fire in the ancient world was both terrifying and life-giving — both meanings apply to the divine fire.",
+      frequency: 71,
+      testament: 'NT',
+    },
+    {
+      greek: 'אֵשׁ',
+      transliteration: 'esh',
+      strongs: 'H784',
+      definition: "Fire — the medium of divine presence (burning bush, pillar of fire, Sinai), divine acceptance (consuming sacrifices), and divine judgment (Sodom, Elijah's altar). God spoke to Moses through esh; the same esh consumed his enemies.",
+      etymology: "One of the oldest Hebrew roots. Fire as the most basic symbol of divine presence — unapproachable, consuming, yet illuminating. The Shekinah often manifests as esh.",
+      frequency: 376,
+      testament: 'OT',
+    },
+  ],
+
+  water: [
+    {
+      greek: 'ὕδωρ',
+      transliteration: 'hydōr',
+      strongs: 'G5204',
+      definition: "Water — physical water extended to the water of life, baptism, and the Spirit. 'Whoever drinks the water I give will never thirst again' (John 4:14). From Christ's side flows water and blood — life and cleansing.",
+      etymology: "Root of 'hydrant,' 'hydraulic,' 'hydrogen.' Water as the basis of all life — extended in Scripture to the source of spiritual life.",
+      frequency: 76,
+      testament: 'NT',
+    },
+    {
+      greek: 'מַיִם',
+      transliteration: 'mayim',
+      strongs: 'H4325',
+      definition: "Water — always plural in Hebrew (mayim). The primordial waters of chaos (Gen 1:2), the water from the rock in the wilderness, and the living waters of Ezekiel's river. Water in the desert is salvation itself.",
+      etymology: "One of the oldest Hebrew words. The plural mayim suggests abundance — water as surging, life-giving plenty. The lack of mayim in the wilderness makes its miraculous provision all the more dramatic.",
+      frequency: 580,
+      testament: 'OT',
+    },
+  ],
+
+  bread: [
+    {
+      greek: 'ἄρτος',
+      transliteration: 'artos',
+      strongs: 'G3739',
+      definition: "Bread — the staple of life extended to the bread of the Presence, the Lord's Supper, and Jesus' self-declaration. 'I am the bread [artos] of life' (John 6:35). The artos broken at the Last Supper is Christ's body given.",
+      etymology: "From airō (to lift up, to raise). Bread that has been leavened and risen — not flatbread but risen bread. Some see a resurrection resonance in the rising of the loaf.",
+      frequency: 97,
+      testament: 'NT',
+    },
+    {
+      greek: 'לֶחֶם',
+      transliteration: 'lechem',
+      strongs: 'H3899',
+      definition: "Bread, food — the basic provision of life. The manna in the wilderness is lechem from heaven (Exod 16:4). Bethlehem (Beit Lechem) means 'house of bread' — fitting birthplace for the Bread of Life.",
+      etymology: "From lacham (to eat, to do battle). The same root means both eating and fighting — bread is what you battle to obtain and battle to protect.",
+      frequency: 297,
+      testament: 'OT',
+    },
+  ],
+
+  cross: [
+    {
+      greek: 'σταυρός',
+      transliteration: 'stauros',
+      strongs: 'G4716',
+      definition: "Cross — the instrument of Roman execution transformed into the central symbol of Christian faith. Paul boasts only in the stauros (Gal 6:14). The 'word of the cross' (logos tou staurou) is foolishness to the world but God's power.",
+      etymology: "From histamai (to stand). A stake or upright pole — the Roman cross combined an upright (stipes) with a crossbeam (patibulum). The condemned carried only the crossbeam.",
+      frequency: 27,
+      testament: 'NT',
+    },
+    {
+      greek: 'עֵץ',
+      transliteration: 'ets',
+      strongs: 'H6086',
+      definition: "Tree, wood, timber — 'Cursed is everyone who is hung on a tree [ets]' (Deut 21:23). Paul quotes this in Galatians 3:13 to explain the cross: Christ became the curse so we might receive the blessing. The Tree of Death reverses the Tree of Life.",
+      etymology: "The generic word for tree or wood. Used for the Tree of Life (Gen 2:9), the wooden ark, and the 'tree' of crucifixion. The same ets appears at creation and redemption.",
+      frequency: 328,
+      testament: 'OT',
+    },
+  ],
+
+  church: [
+    {
+      greek: 'ἐκκλησία',
+      transliteration: 'ekklēsia',
+      strongs: 'G1577',
+      definition: "Church, assembly, congregation — not a building but a people called out and gathered. In Athens, the ekklēsia was the democratic assembly of citizens summoned by a herald. Jesus redefines it: citizens of heaven summoned by the gospel.",
+      etymology: "From ek (out) + kaleō (to call). The ekklēsia is literally 'the called-out assembly.' The church does not gather to become the church — it is the church and therefore gathers.",
+      frequency: 114,
+      testament: 'NT',
+    },
+    {
+      greek: 'קָהָל',
+      transliteration: 'qahal',
+      strongs: 'H6951',
+      definition: "Assembly, congregation — the gathered people of God in the OT. 'The qahal of the LORD' is Israel assembled before God at Sinai and in the Temple. The LXX (Greek OT) translates qahal as ekklēsia — the NT church is the continuation and expansion of Israel's qahal.",
+      etymology: "From qahal (to assemble, to summon). The assembly is constituted by the summons — it does not create itself but is called into being by God.",
+      frequency: 123,
+      testament: 'OT',
+    },
+  ],
+
+  worship: [
+    {
+      greek: 'προσκυνέω',
+      transliteration: 'proskyneō',
+      strongs: 'G4352',
+      definition: "To worship, to bow down, to prostrate — the most common NT word for worship. Combines the posture (bowing) with the orientation (toward). True worshippers worship 'in Spirit and in truth' (John 4:23) — not at Jerusalem or Samaria but in Christ.",
+      etymology: "From pros (toward) + kyneō (to kiss). The gesture of kissing toward a superior — bowing and stretching out as if to kiss the feet of a king. Worship as the posture of utter devotion.",
+      frequency: 60,
+      testament: 'NT',
+    },
+    {
+      greek: 'שָׁחָה',
+      transliteration: 'shachah',
+      strongs: 'H7812',
+      definition: "To bow down, to prostrate in worship — the primary OT word for worship. Abraham 'worshipped' (shachah) before making his covenant with God. The Magi 'fell down and worshipped' (proskyneō in NT; shachah is the OT equivalent).",
+      etymology: "From shachah (to bow, to prostrate). Worship as a physical act — not primarily a feeling but a body brought low before majesty. The soul follows the posture of the body.",
+      frequency: 172,
+      testament: 'OT',
+    },
+    {
+      greek: 'λατρεία',
+      transliteration: 'latreia',
+      strongs: 'G2999',
+      definition: "Service, worship, ministry — Paul's word for the whole of life as worship. 'Offer your bodies as a living sacrifice… this is your latreia' (Rom 12:1). Work, worship, and service are the same word.",
+      etymology: "From latreuō (to serve for hire, to render religious service). Root of 'idolatry' (eidōlolatreia). The totality of priestly service — extended by Paul to encompass all of life.",
+      frequency: 5,
+      testament: 'NT',
+    },
+  ],
+
+  atonement: [
+    {
+      greek: 'ἱλασμός',
+      transliteration: 'hilasmos',
+      strongs: 'G2434',
+      definition: "Atonement, propitiation — the satisfaction of divine justice through Christ's sacrifice. 'He is the hilasmos for our sins, and not only for ours but also for the whole world' (1 John 2:2). God is both the offended and the one who provides the remedy.",
+      etymology: "From hilaskomai (to propitiate, to make favorable). The mercy seat (hilastērion) on the ark was the place of atonement — where blood was sprinkled and God's wrath was averted.",
+      frequency: 2,
+      testament: 'NT',
+    },
+    {
+      greek: 'כָּפַר',
+      transliteration: 'kaphar',
+      strongs: 'H3722',
+      definition: "To atone, to cover, to make expiation — the root of Yom Kippur (Day of Atonement). Kaphar means both 'to cover' (the sin is hidden from God's sight) and 'to wipe away' (the sin is removed). The blood of the sacrifice kaphar — it covers and cleanses.",
+      etymology: "Possibly related to kopher (ransom, pitch). Noah covered the ark with pitch (kaphar) — the same word. Sin needs covering to prevent the flood of divine judgment from breaking through.",
+      frequency: 102,
+      testament: 'OT',
+    },
+  ],
+
+  priest: [
+    {
+      greek: 'ἱερεύς',
+      transliteration: 'hiereus',
+      strongs: 'G2409',
+      definition: "Priest — the mediator between God and people, the one authorized to offer sacrifice and enter God's presence on behalf of others. Christ is the great High Priest (Heb 4:14) — both the priest who offers and the sacrifice offered.",
+      etymology: "From hieros (sacred, holy). The hiereus is the one set apart for sacred duty. In Christ, the priesthood is permanent and perfect — no succession needed.",
+      frequency: 31,
+      testament: 'NT',
+    },
+    {
+      greek: 'כֹּהֵן',
+      transliteration: 'kohen',
+      strongs: 'H3548',
+      definition: "Priest — the kohen mediated between Israel and God through sacrifice, blessing, and Torah instruction. The Aaronic priesthood pointed forward: limited, mortal priests offering imperfect sacrifices. Melchizedek's priesthood (Ps 110:4) pointed to Christ's eternal, superior priesthood.",
+      etymology: "Possibly from kun (to stand, to serve). The kohen stands before God to minister. Israel itself is called 'a kingdom of kohanim' (Exod 19:6) — a nation of priests to the nations.",
+      frequency: 750,
+      testament: 'OT',
+    },
+  ],
+
+  prophet: [
+    {
+      greek: 'προφήτης',
+      transliteration: 'prophētēs',
+      strongs: 'G4396',
+      definition: "Prophet — not primarily a foreteller but a forthteller: one who speaks God's word into the present. Pro + phēmi means 'to speak before/on behalf of.' A prophet is God's mouthpiece. Jesus is the eschatological prophet (Deut 18:15) who surpasses all previous prophētai.",
+      etymology: "From pro (before/for) + phēmi (to speak). Speaking on behalf of God, not primarily speaking about the future. Prediction is secondary to proclamation.",
+      frequency: 144,
+      testament: 'NT',
+    },
+    {
+      greek: 'נָבִיא',
+      transliteration: 'nabi',
+      strongs: 'H5030',
+      definition: "Prophet — the one who speaks what God has revealed. The nabi receives the dabar Yahweh (word of the LORD) and delivers it regardless of audience response. Moses, Samuel, Elijah, Isaiah — each nabi stands in the divine council and reports what they hear.",
+      etymology: "Possibly from naba (to bubble up, to pour forth). The word flows out from the prophet like water from a spring — they cannot contain it. 'His word was in my heart like a burning fire' (Jer 20:9).",
+      frequency: 316,
+      testament: 'OT',
+    },
+  ],
+
+  justice: [
+    {
+      greek: 'κρίσις',
+      transliteration: 'krisis',
+      strongs: 'G2920',
+      definition: "Justice, judgment, decision — both the process of judgment and the standard of righteousness. Jesus came not to bring krisis but salvation — yet his presence forces a decision (krisis) in everyone who encounters him. Root of 'crisis.'",
+      etymology: "From krinō (to separate, to judge, to decide). Judgment as discernment — separating what belongs from what does not. Every encounter with truth is a moment of krisis.",
+      frequency: 47,
+      testament: 'NT',
+    },
+    {
+      greek: 'מִשְׁפָּט',
+      transliteration: 'mishpat',
+      strongs: 'H4941',
+      definition: "Justice, judgment, ordinance — both the act of judging and the standard of right conduct. God 'loves mishpat' (Ps 37:28). The prophets cry for mishpat to 'roll on like rivers' (Amos 5:24). Mishpat without hesed is oppression; hesed without mishpat is sentimentality.",
+      etymology: "From shaphat (to judge, to govern). Mishpat is what the judge decides — both the verdict and the standard that shapes it. True mishpat reflects God's own character.",
+      frequency: 421,
+      testament: 'OT',
+    },
+  ],
+
+  humility: [
+    {
+      greek: 'ταπεινοφροσύνη',
+      transliteration: 'tapeinophrosynē',
+      strongs: 'G5012',
+      definition: "Humility, lowliness of mind — not self-deprecation but accurate self-assessment before God. 'Do nothing from selfishness… but with tapeinophrosynē count others more significant than yourselves' (Phil 2:3). Modeled by Christ's kenōsis.",
+      etymology: "From tapeinos (low, humble) + phrosynē (mindset). Literally: a low mindset. Greek culture despised humility as slave-like; Paul rehabilitates it as the mindset of Christ himself.",
+      frequency: 7,
+      testament: 'NT',
+    },
+    {
+      greek: 'עֲנָוָה',
+      transliteration: 'anavah',
+      strongs: 'H6038',
+      definition: "Humility, meekness, gentleness — the disposition of those who depend entirely on God. 'The anav will inherit the land' (Ps 37:11). Jesus quotes this in the Beatitudes (Matt 5:5). Moses was the most anav man on earth (Num 12:3).",
+      etymology: "From anav (poor, humble, afflicted). Humility in the OT is tied to poverty and suffering — those who have nothing else to rely on learn to rely on God. Meekness is strength under God's control.",
+      frequency: 5,
+      testament: 'OT',
+    },
+  ],
+
+  patience: [
+    {
+      greek: 'ὑπομονή',
+      transliteration: 'hypomonē',
+      strongs: 'G5281',
+      definition: "Patient endurance, steadfastness — not passive waiting but active perseverance under pressure. From hypo (under) + menō (to remain). To remain under the load rather than throw it off. The runner's word: endurance that keeps moving.",
+      etymology: "From hypomenō (to remain under, to endure). Often translated 'patience' but better: 'endurance.' Not waiting without complaint but pressing forward under weight.",
+      frequency: 32,
+      testament: 'NT',
+    },
+    {
+      greek: 'מַכְתֵּשׁ',
+      transliteration: 'qavah',
+      strongs: 'H6960',
+      definition: "To wait, to hope, to endure — the same word as tiqvah (hope). Qavah is the action of hope: actively waiting for God while holding the tiqvah (cord/hope). 'Those who qavah upon the LORD shall renew their strength' (Isa 40:31).",
+      etymology: "From qavah (to bind together, to wait expectantly). The waiting is not passive — it is like a wound cord under tension, ready for the moment of release.",
+      frequency: 47,
+      testament: 'OT',
+    },
+  ],
+
+  rest: [
+    {
+      greek: 'ἀνάπαυσις',
+      transliteration: 'anapausis',
+      strongs: 'G372',
+      definition: "Rest, refreshment — cessation from labor and the positive restoration it brings. 'Come to me… and I will give you anapausis' (Matt 11:28). The Sabbath rest points to the eschatological anapausis of God's people (Heb 4).",
+      etymology: "From ana (again) + pausis (cessation). Rest that is restorative — not mere stopping but the refreshment that follows. Like the pause that allows the next breath.",
+      frequency: 5,
+      testament: 'NT',
+    },
+    {
+      greek: 'מְנוּחָה',
+      transliteration: 'menucha',
+      strongs: 'H4496',
+      definition: "Rest, resting place, repose — the settled peace of one who has arrived. God's rest on the seventh day (Shabbat) is menucha — not inactivity but the enjoyment of completed work. The Promised Land is a menucha (Deut 12:9). Psalm 23's 'still waters' are literally 'waters of menucha.'",
+      etymology: "From nuach (to rest, to settle). The ark rested (nuach) after the flood; the dove found no nuach and returned. Menucha is where the striving stops and dwelling begins.",
+      frequency: 21,
+      testament: 'OT',
+    },
+    {
+      greek: 'שַׁבָּת',
+      transliteration: 'shabbat',
+      strongs: 'H7676',
+      definition: "Sabbath — the seventh day of cessation, patterned on God's own rest at creation. Shabbat is the sign of the covenant between God and Israel (Exod 31:13). It declares that identity and worth are not found in productivity but in relationship with God.",
+      etymology: "From shavat (to cease, to rest). Not sleep or inactivity but cessation from creative labor — the deliberate stopping that honors the rhythm God built into creation.",
+      frequency: 107,
+      testament: 'OT',
+    },
+  ],
+
+  praise: [
+    {
+      greek: 'αἴνεσις',
+      transliteration: 'ainesis',
+      strongs: 'G133',
+      definition: "Praise — the verbal acknowledgment of God's worth. 'Through Jesus, therefore, let us continually offer to God a sacrifice of ainesis' (Heb 13:15). Praise is not mood-dependent but offered as a sacrifice — something that costs, especially in darkness.",
+      etymology: "From aineō (to praise, to commend). The ainesis offered to God is the same word used for the angels' 'Glory to God in the highest' at the nativity.",
+      frequency: 2,
+      testament: 'NT',
+    },
+    {
+      greek: 'הַלְלוּיָהּ',
+      transliteration: 'halleluyah',
+      strongs: 'H1984',
+      definition: "Praise the LORD — the most universal word of praise in Scripture, adopted unchanged into Greek, Latin, and virtually every language. Hallelu (plural imperative: all of you praise!) + Yah (the LORD). The Psalms' command to praise is universal and communal.",
+      etymology: "From halal (to shine, to boast, to praise) + Yah (the short form of YHWH). Praise as shining — the one who praises reflects God's light back to him. 'Hallel' psalms (113–118) were sung at Passover — including by Jesus at the Last Supper.",
+      frequency: 24,
+      testament: 'OT',
+    },
+    {
+      greek: 'תְּהִלָּה',
+      transliteration: 'tehillah',
+      strongs: 'H8416',
+      definition: "Praise, song of praise — the word behind 'Psalms' (Tehillim). 'You who dwell in the tehillot (praises) of Israel' (Ps 22:3) — God is enthroned on the praises of his people. Praise creates the throne room; God inhabits it.",
+      etymology: "From halal (to praise). Tehillah is praise expressed in song. The book of Psalms is the Sefer Tehillim — the Book of Praises — suggesting the entire collection is fundamentally a book of worship.",
+      frequency: 57,
+      testament: 'OT',
+    },
+  ],
+
+  temple: [
+    {
+      greek: 'ναός',
+      transliteration: 'naos',
+      strongs: 'G3485',
+      definition: "Temple, sanctuary, the inner shrine — specifically the dwelling place of God, distinct from the outer courts (hieron). Jesus' body is a naos (John 2:21). The church is God's naos (1 Cor 3:16). Ultimately every believer is a naos of the Holy Spirit (1 Cor 6:19).",
+      etymology: "From naō (to dwell). The naos is where God dwells — the Holy of Holies, the inner sanctuary. Distinct from the outer courts, it is the center of divine presence.",
+      frequency: 45,
+      testament: 'NT',
+    },
+    {
+      greek: 'הֵיכָל',
+      transliteration: 'hekal',
+      strongs: 'H1964',
+      definition: "Temple, palace, great house — the dwelling of a king, divine or human. Solomon's hekal was the architectural embodiment of God's presence with Israel. When it was destroyed (586 BC), it felt like the abandonment of God — Ezekiel's vision shows the kabod departing before the destruction.",
+      etymology: "Borrowed from Sumerian/Akkadian E.GAL (great house). The hekal is a royal palace — its use for God's dwelling declares that YHWH is the cosmic King dwelling among his people.",
+      frequency: 80,
+      testament: 'OT',
+    },
+  ],
+
+  compassion: [
+    {
+      greek: 'σπλάγχνα',
+      transliteration: 'splagchna',
+      strongs: 'G4698',
+      definition: "Compassion, deep mercy — literally the bowels/intestines: the visceral seat of emotion in Hellenistic physiology. 'Jesus was moved with splagchna' means his compassion was gut-level, physical. Paul has splagchna for his churches the way a mother feels for her children.",
+      etymology: "From splēn (spleen). The ancients believed deep emotions resided in the viscera — the internal organs. Splagchna is compassion you feel in your gut, not just your head.",
+      frequency: 11,
+      testament: 'NT',
+    },
+    {
+      greek: 'רַחֲמִים',
+      transliteration: 'rachamim',
+      strongs: 'H7356',
+      definition: "Tender mercies, compassion — from rechem (womb). God's rachamim is maternal, visceral love. 'Can a mother forget the baby at her breast? … I will not forget you!' (Isa 49:15). The father in the prodigal son parable is 'moved with rachamim' when he sees his son returning.",
+      etymology: "From rechem (womb). Rachamim is the love a mother has for the child of her womb — instinctive, fierce, unconditional. God's compassion is this intense.",
+      frequency: 39,
+      testament: 'OT',
+    },
+  ],
+
+  suffering: [
+    {
+      greek: 'πάθημα',
+      transliteration: 'pathēma',
+      strongs: 'G3804',
+      definition: "Suffering, affliction, passion — the sufferings that come upon a person from outside. Paul sees pathēmata as participation in Christ's own sufferings (Col 1:24) and the path to sharing his glory (Rom 8:17–18). The same root as 'passion' and 'pathology.'",
+      etymology: "From paschō (to suffer, to experience). The 'Passion' of Christ is ta pathēmata — the sufferings he experienced. Believers share in these, not to add to their merit, but because they follow the same cruciform path.",
+      frequency: 16,
+      testament: 'NT',
+    },
+    {
+      greek: 'יָגוֹן',
+      transliteration: 'yagon',
+      strongs: 'H3015',
+      definition: "Grief, sorrow — deep emotional suffering. The Man of Sorrows (Isa 53:3) is familiar with yagon — acquainted with grief from close experience. The Psalms give language to yagon: lament is biblical, not faithless.",
+      etymology: "From yagah (to grieve, to afflict). Sorrow that penetrates to the core — not surface sadness but existential grief. The OT's rich vocabulary of lament assumes suffering is part of the covenant life.",
+      frequency: 14,
+      testament: 'OT',
+    },
+  ],
 }
 
 export const KEY_PASSAGES = {
@@ -1512,6 +1938,465 @@ export const KEY_PASSAGES = {
       english: '"The blood [haima] of Jesus, his Son, purifies us from all sin."',
       greek: 'τὸ αἷμα Ἰησοῦ τοῦ υἱοῦ αὐτοῦ καθαρίζει ἡμᾶς ἀπὸ πάσης ἁμαρτίας.',
       note: "Katharizei — present tense, continuous: 'keeps on cleansing.' The haima of Christ is not a one-time legal transaction but an ongoing cleansing reality for those walking in the light.",
+    },
+    {
+      reference: 'Revelation 12:11',
+      english: '"They triumphed over him by the blood [haima] of the Lamb and by the word of their testimony."',
+      greek: 'αὐτοὶ ἐνίκησαν αὐτὸν διὰ τὸ αἷμα τοῦ ἀρνίου καὶ διὰ τὸν λόγον τῆς μαρτυρίας αὐτῶν',
+      note: "Two weapons against the accuser: the haima of the arnion (objective atonement) and the logos of their martyria (subjective testimony). Victory is both received and declared.",
+    },
+  ],
+
+  life: [
+    {
+      reference: 'John 10:10',
+      english: '"I have come that they may have life [zōē], and have it to the full."',
+      greek: 'ἐγὼ ἦλθον ἵνα ζωὴν ἔχωσιν καὶ περισσὸν ἔχωσιν.',
+      note: "Perissos — abundant, exceeding, overflowing. The zōē Christ gives is not rationed but superabundant. He does not offer bare survival but overflowing life.",
+    },
+    {
+      reference: 'John 11:25',
+      english: '"I am the resurrection and the life [zōē]. Whoever believes in me will live, even though they die."',
+      greek: 'ἐγώ εἰμι ἡ ἀνάστασις καὶ ἡ ζωή.',
+      note: "Jesus does not point to a future event or a principle — he IS the zōē. Contact with him is contact with life itself. Death cannot interrupt it.",
+    },
+    {
+      reference: 'Genesis 2:7',
+      english: '"The LORD God formed man from the dust and breathed into his nostrils the breath of life [chayyim]; and man became a living being."',
+      greek: 'וַיִּיצֶר יְהוָה אֱלֹהִים אֶת-הָאָדָם עָפָר מִן-הָאֲדָמָה וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים',
+      note: "God breathes chayyim directly into the adam — no intermediary, no proxy. Human life is a direct impartation of divine breath. To be human is to carry God's exhalation.",
+    },
+    {
+      reference: 'Deuteronomy 30:19–20',
+      english: '"I have set before you life [chayyim] and death… Now choose life, so that you and your children may live."',
+      greek: 'הַחַיִּים וְהַמָּוֶת נָתַתִּי לְפָנֶיךָ… וּבָחַרְתָּ בַּחַיִּים',
+      note: "The two ways — chayyim and mavet — set starkly before Israel. God commands the choice of life and then defines it: 'loving the LORD your God, obeying his voice, and holding fast to him.'",
+    },
+  ],
+
+  death: [
+    {
+      reference: '1 Corinthians 15:26',
+      english: '"The last enemy to be destroyed is death [thanatos]."',
+      greek: 'ἔσχατος ἐχθρὸς καταργεῖται ὁ θάνατος.',
+      note: "Thanatos is an enemy — and the last one. Christ has disarmed sin and the law; death remains but is mortally wounded. Its destruction is certain and imminent.",
+    },
+    {
+      reference: 'Romans 6:23',
+      english: '"For the wages of sin is death [thanatos], but the gift of God is eternal life in Christ Jesus our Lord."',
+      greek: 'τὰ γὰρ ὀψώνια τῆς ἁμαρτίας θάνατος, τὸ δὲ χάρισμα τοῦ Θεοῦ ζωὴ αἰώνιος',
+      note: "Opsōnia = soldier's wages — what you are owed for service rendered. Thanatos is the earned wage of sin's service. Eternal life (aiōnios zōē) by contrast is a charisma — an unearned gift.",
+    },
+    {
+      reference: 'Revelation 21:4',
+      english: '"He will wipe every tear from their eyes. There will be no more death [thanatos]."',
+      greek: 'καὶ ὁ θάνατος οὐκ ἔσται ἔτι',
+      note: "The final state: thanatos abolished. Not merely defeated but annihilated — 'no more.' The new creation has no room for it. The second death (Rev 20:14) is itself cast into the lake of fire.",
+    },
+    {
+      reference: 'Psalm 23:4',
+      english: '"Even though I walk through the valley of the shadow of death [mavet], I will fear no evil, for you are with me."',
+      greek: 'גַּם כִּי-אֵלֵךְ בְּגֵיא צַלְמָוֶת לֹא-אִירָא רָע כִּי-אַתָּה עִמָּדִי',
+      note: "Tsalmevet — shadow of death, or deep darkness. The comfort is not the absence of the valley but the presence of the Shepherd. The 'you are with me' transforms the mavet-valley.",
+    },
+  ],
+
+  fire: [
+    {
+      reference: 'Exodus 3:2',
+      english: '"The angel of the LORD appeared to him in flames of fire [esh] from within a bush."',
+      greek: 'וַיֵּרָא מַלְאַךְ יְהוָה אֵלָיו בְּלַבַּת-אֵשׁ מִתּוֹךְ הַסְּנֶה',
+      note: "The burning bush — esh that consumes without destroying. The unconsumed bush is the miracle: God's presence is fiery but not destructive to what he has chosen. Moses must remove his sandals: the esh makes the ground holy.",
+    },
+    {
+      reference: 'Acts 2:3',
+      english: '"They saw what seemed to be tongues of fire [pyros] that separated and came to rest on each of them."',
+      greek: 'καὶ ὤφθησαν αὐτοῖς διαμεριζόμεναι γλῶσσαι ὡσεὶ πυρός',
+      note: "Pyr at Pentecost echoes the esh at Sinai — God descending in fire on the mountain. Now the fire descends not on a building but on persons. Each believer becomes a sanctuary.",
+    },
+    {
+      reference: 'Hebrews 12:29',
+      english: '"For our God is a consuming fire [pyr]."',
+      greek: 'καὶ γὰρ ὁ Θεὸς ἡμῶν πῦρ καταναλίσκον.',
+      note: "Quoting Deuteronomy 4:24 — the writer applies the Sinai fire-God to the NT context. Holiness is not mild. The same fire that warms also purifies and, for the unrepentant, consumes.",
+    },
+    {
+      reference: 'Jeremiah 20:9',
+      english: '"His word is in my heart like a fire [esh], a fire shut up in my bones."',
+      greek: 'וְהָיָה בְלִבִּי כְּאֵשׁ בֹּעֶרֶת עָצֻר בְּעַצְמֹתָי',
+      note: "Jeremiah tries to stop prophesying — the rejection is too painful. But the dabar is esh; he cannot contain it. The prophetic word burns until it is spoken.",
+    },
+  ],
+
+  water: [
+    {
+      reference: 'John 4:13–14',
+      english: '"Everyone who drinks this water will be thirsty again, but whoever drinks the water I give them will never thirst."',
+      greek: 'πᾶς ὁ πίνων ἐκ τοῦ ὕδατος τούτου διψήσει πάλιν· ὃς δ᾽ ἂν πίῃ ἐκ τοῦ ὕδατος οὗ ἐγὼ δώσω αὐτῷ οὐ μὴ διψήσει εἰς τὸν αἰῶνα.',
+      note: "At Jacob's well, Jesus offers hydōr that becomes an internal spring (pēgē) — not a well you return to but a source within. The woman sought water daily; Jesus offers water that transforms the seeker into a source.",
+    },
+    {
+      reference: 'Revelation 22:1',
+      english: '"The angel showed me the river of the water of life [hydatos zōēs], as clear as crystal, flowing from the throne of God and of the Lamb."',
+      greek: 'ποταμὸν ὕδατος ζωῆς λαμπρὸν ὡς κρύσταλλον, ἐκπορευόμενον ἐκ τοῦ θρόνου τοῦ Θεοῦ καὶ τοῦ ἀρνίου.',
+      note: "The eschatological river echoes Eden (Gen 2) and Ezekiel's temple river (Ezek 47). The hydōr zōēs flows from the throne — the source of all life is the presence of God and the Lamb.",
+    },
+    {
+      reference: 'Ezekiel 47:9',
+      english: '"Where the river flows everything will live."',
+      greek: 'וְהָיָה כָּל-נֶפֶשׁ חַיָּה אֲשֶׁר-יִשְׁרֹץ אֶל כָּל-אֲשֶׁר יָבוֹא שָׁם נַחֲלַיִם יִחְיֶה',
+      note: "Ezekiel's vision of the river flowing from the temple — getting deeper the further it goes, until it freshens the Dead Sea. The mayim of God's presence restores what was dead.",
+    },
+    {
+      reference: 'Isaiah 55:1',
+      english: '"Come, all you who are thirsty, come to the waters [mayim]; and you who have no money, come, buy and eat!"',
+      greek: 'הוֹי כָּל-צָמֵא לְכוּ לַמַּיִם',
+      note: "The great invitation — mayim offered without price to those without money. The economy of grace inverts the economy of the market. Jesus quotes this implicitly throughout John.",
+    },
+  ],
+
+  bread: [
+    {
+      reference: 'John 6:35',
+      english: '"I am the bread [artos] of life. Whoever comes to me will never go hungry."',
+      greek: 'ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς· ὁ ἐρχόμενος πρὸς ἐμὲ οὐ μὴ πεινάσῃ',
+      note: "The 'I Am' declaration following the feeding of 5,000. The artos that fed thousands was a sign pointing to the Artos of Life. Physical bread satisfies temporarily; Christ satisfies permanently.",
+    },
+    {
+      reference: 'Matthew 26:26',
+      english: '"While they were eating, Jesus took bread [arton], and when he had given thanks, he broke it and gave it to his disciples."',
+      greek: 'Λαβὼν ὁ Ἰησοῦς ἄρτον καὶ εὐλογήσας ἔκλασεν καὶ δοὺς τοῖς μαθηταῖς εἶπεν· Λάβετε φάγετε· τοῦτό ἐστιν τὸ σῶμά μου.',
+      note: "Take, bless, break, give — the fourfold action at the Last Supper and at Emmaus (Luke 24:30). The disciples recognized the risen Christ in the breaking of the artos.",
+    },
+    {
+      reference: 'Exodus 16:4',
+      english: '"I will rain down bread [lechem] from heaven for you."',
+      greek: 'הִנְנִי מַמְטִיר לָכֶם לֶחֶם מִן-הַשָּׁמַיִם',
+      note: "The manna — lechem from heaven. Jesus draws the explicit connection in John 6: 'Your ancestors ate the manna in the wilderness, yet they died. But here is the bread that comes down from heaven.' Greater than manna.",
+    },
+    {
+      reference: 'Matthew 4:4',
+      english: '"Man shall not live on bread [artō] alone, but on every word that comes from the mouth of God."',
+      greek: 'οὐκ ἐπ᾽ ἄρτῳ μόνῳ ζήσεται ὁ ἄνθρωπος, ἀλλ᾽ ἐπὶ παντὶ ῥήματι ἐκπορευομένῳ διὰ στόματος Θεοῦ.',
+      note: "Jesus quotes Deuteronomy 8:3 against the tempter. The irony: Jesus IS the artos of life — yet he refuses to use his identity to serve his hunger. Obedience to the rhēma matters more than the artos.",
+    },
+  ],
+
+  cross: [
+    {
+      reference: 'Galatians 6:14',
+      english: '"May I never boast except in the cross [stauros] of our Lord Jesus Christ."',
+      greek: 'ἐμοὶ δὲ μὴ γένοιτο καυχᾶσθαι εἰ μὴ ἐν τῷ σταυρῷ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ',
+      note: "Boasting in an instrument of execution was as scandalous as boasting in a gallows or electric chair. Paul inverts all cultural honor systems: the stauros is the one thing worth boasting about.",
+    },
+    {
+      reference: '1 Corinthians 1:18',
+      english: '"For the message of the cross [stauros] is foolishness to those who are perishing, but to us who are being saved it is the power of God."',
+      greek: 'ὁ λόγος γὰρ ὁ τοῦ σταυροῦ τοῖς μὲν ἀπολλυμένοις μωρία ἐστίν, τοῖς δὲ σῳζομένοις ἡμῖν δύναμις Θεοῦ ἐστιν.',
+      note: "Mōria (foolishness, from which 'moron') vs. dynamis — the cross divides humanity. What looks like utter weakness and failure IS the power of God for salvation.",
+    },
+    {
+      reference: 'Colossians 2:14–15',
+      english: '"He has taken it away, nailing it to the cross [stauros]. And having disarmed the powers and authorities, he made a public spectacle of them, triumphing over them by the cross."',
+      greek: 'προσηλώσας αὐτὸ τῷ σταυρῷ· ἀπεκδυσάμενος τὰς ἀρχὰς καὶ τὰς ἐξουσίας ἐδειγμάτισεν ἐν παρρησίᾳ θριαμβεύσας αὐτοὺς ἐν αὐτῷ.',
+      note: "The Roman triumph was a victory parade where conquered enemies were displayed. Paul says the stauros IS the triumph — what looked like defeat was the cosmic victory parade over all powers.",
+    },
+    {
+      reference: 'Luke 14:27',
+      english: '"Whoever does not carry their cross [stauron] and follow me cannot be my disciple."',
+      greek: 'ὅστις οὐ βαστάζει τὸν σταυρὸν ἑαυτοῦ καὶ ἔρχεται ὀπίσω μου, οὐ δύναται εἶναί μου μαθητής.',
+      note: "Said before the crucifixion — the disciples did not yet understand. In hindsight: taking up the stauros means accepting death to self, reputation, and self-determination as the path of discipleship.",
+    },
+  ],
+
+  church: [
+    {
+      reference: 'Matthew 16:18',
+      english: '"On this rock I will build my church [ekklēsian], and the gates of Hades will not overcome it."',
+      greek: 'ἐπὶ ταύτῃ τῇ πέτρᾳ οἰκοδομήσω μου τὴν ἐκκλησίαν καὶ πύλαι ᾅδου οὐ κατισχύσουσιν αὐτῆς.',
+      note: "The only time Jesus uses ekklēsia in the Gospels. He builds it (not us); it is his (mou); and its adversary is the gates of Hades — suggesting the church is on the offensive, not the defensive.",
+    },
+    {
+      reference: 'Ephesians 5:25–27',
+      english: '"Christ loved the church [ekklēsian] and gave himself up for her to make her holy."',
+      greek: 'ὁ Χριστὸς ἠγάπησεν τὴν ἐκκλησίαν καὶ ἑαυτὸν παρέδωκεν ὑπὲρ αὐτῆς',
+      note: "The ekklēsia as bride — Christ's agapē for her is the model for marital love. The church is not an institution Christ tolerates but a bride he died to present to himself glorious.",
+    },
+    {
+      reference: 'Acts 2:42–47',
+      english: '"They devoted themselves to the apostles\' teaching and to fellowship, to the breaking of bread and to prayer."',
+      greek: 'ἦσαν δὲ προσκαρτεροῦντες τῇ διδαχῇ τῶν ἀποστόλων καὶ τῇ κοινωνίᾳ',
+      note: "The first ekklēsia: four practices (teaching, koinōnia, bread-breaking, prayer) and one result (daily additions to their number). The pattern, not the building, constitutes the church.",
+    },
+  ],
+
+  worship: [
+    {
+      reference: 'John 4:23–24',
+      english: '"True worshipers will worship [proskunēsousin] the Father in the Spirit and in truth… God is Spirit, and his worshipers must worship in the Spirit and in truth."',
+      greek: 'οἱ ἀληθινοὶ προσκυνηταὶ προσκυνήσουσιν τῷ πατρὶ ἐν πνεύματι καὶ ἀληθείᾳ',
+      note: "The Samaritan woman raises the worship-location debate; Jesus transcends it entirely. True proskyneō is defined not by place (Jerusalem or Gerizim) but by pneuma and alētheia — Spirit-enabled reality.",
+    },
+    {
+      reference: 'Romans 12:1',
+      english: '"Offer your bodies as a living sacrifice, holy and pleasing to God — this is your true and proper worship [latreia]."',
+      greek: 'παραστῆσαι τὰ σώματα ὑμῶν θυσίαν ζῶσαν ἁγίαν εὐάρεστον τῷ Θεῷ, τὴν λογικὴν λατρείαν ὑμῶν.',
+      note: "Logikē latreia — 'reasonable/spiritual service.' The entire embodied life offered to God IS worship. Paul redefines latreia: not temple ritual but daily surrender of the body.",
+    },
+    {
+      reference: 'Psalm 95:6',
+      english: '"Come, let us bow down in worship [nishta chaveh], let us kneel before the LORD our Maker."',
+      greek: 'בֹּאוּ נִשְׁתַּחֲוֶה וְנִכְרָעָה נִבְרְכָה לִפְנֵי-יְהוָה עֹשֵׂנוּ',
+      note: "Three postures in one verse: bow down (shachah), kneel (kara), and bless/kneel (barak). OT worship is bodily — the shachah worship of Israel engaged the whole person.",
+    },
+  ],
+
+  atonement: [
+    {
+      reference: 'Leviticus 16:30',
+      english: '"On this day atonement [yekapper] will be made for you, to cleanse you. Then, before the LORD, you will be clean from all your sins."',
+      greek: 'כִּי-בַיּוֹם הַזֶּה יְכַפֵּר עֲלֵיכֶם לְטַהֵר אֶתְכֶם מִכֹּל חַטֹּאתֵיכֶם',
+      note: "Yom Kippur — the annual kaphar. The High Priest alone entered the Holy of Holies with blood, performing the ritual that covered Israel's sins for another year. The book of Hebrews argues Christ performed this once for all.",
+    },
+    {
+      reference: 'Romans 3:25',
+      english: '"God presented Christ as a sacrifice of atonement [hilastērion], through the shedding of his blood."',
+      greek: 'ὃν προέθετο ὁ Θεὸς ἱλαστήριον διὰ τῆς πίστεως ἐν τῷ αὐτοῦ αἵματι',
+      note: "Hilastērion is the Greek word for the mercy seat — the golden lid of the ark where the High Priest sprinkled blood on Yom Kippur. Paul says Christ IS the mercy seat: God and humanity meet at the place of his blood.",
+    },
+    {
+      reference: '1 John 2:2',
+      english: '"He is the atoning sacrifice [hilasmos] for our sins, and not only for ours but also for the sins of the whole world."',
+      greek: 'αὐτὸς ἱλασμός ἐστιν περὶ τῶν ἁμαρτιῶν ἡμῶν, οὐ περὶ τῶν ἡμετέρων δὲ μόνον ἀλλὰ καὶ περὶ ὅλου τοῦ κόσμου.',
+      note: "The scope of the hilasmos is the whole world (holos kosmos) — the atonement is sufficient for all. Its application is not universalist but universal in sufficiency.",
+    },
+  ],
+
+  priest: [
+    {
+      reference: 'Hebrews 4:14–15',
+      english: '"We have a great high priest [archiereus] who has ascended into heaven, Jesus the Son of God… who has been tempted in every way, just as we are."',
+      greek: 'Ἔχοντες οὖν ἀρχιερέα μέγαν διεληλυθότα τοὺς οὐρανούς, Ἰησοῦν τὸν υἱὸν τοῦ Θεοῦ',
+      note: "The archiereus (High Priest) is great because he has passed through the heavens — not into a earthly Holy of Holies but into God's own presence. His humanity (tempted as we are) qualifies him to intercede.",
+    },
+    {
+      reference: 'Hebrews 7:24–25',
+      english: '"Because Jesus lives forever, he has a permanent priesthood… he is able to save completely those who come to God through him, because he always lives to intercede for them."',
+      greek: 'ὁ δὲ διὰ τὸ μένειν αὐτὸν εἰς τὸν αἰῶνα ἀπαράβατον ἔχει τὴν ἱερωσύνην',
+      note: "The Aaronic priests died and were succeeded; Christ's priesthood is permanent (aparabaton — non-transferable). His intercession is unbroken, continuous, and fully effective.",
+    },
+    {
+      reference: '1 Peter 2:9',
+      english: '"But you are a chosen people, a royal priesthood [hierateuma]… that you may declare the praises of him who called you out of darkness."',
+      greek: 'ὑμεῖς δὲ γένος ἐκλεκτόν, βασίλειον ἱεράτευμα',
+      note: "Quoting Exodus 19:6 to the church: the role Israel was called to (kingdom of priests to the nations) is now the identity of the ekklēsia. Every believer is a kohen — with access to God and mission to others.",
+    },
+  ],
+
+  prophet: [
+    {
+      reference: 'Deuteronomy 18:15',
+      english: '"The LORD your God will raise up for you a prophet like me from among you… you must listen to him."',
+      greek: 'נָבִיא מִקִּרְבְּךָ מֵאַחֶיךָ כָּמֹנִי יָקִים לְךָ יְהוָה אֱלֹהֶיךָ אֵלָיו תִּשְׁמָעוּן',
+      note: "Moses' prediction of the eschatological prophet — quoted in Acts 3:22 and 7:37 about Jesus. The nabi like Moses would speak God's words directly and be the authoritative voice of the new covenant.",
+    },
+    {
+      reference: 'Hebrews 1:1–2',
+      english: '"In the past God spoke to our ancestors through the prophets [prophētais]… but in these last days he has spoken to us by his Son."',
+      greek: 'Πολυμερῶς καὶ πολυτρόπως πάλαι ὁ Θεὸς λαλήσας τοῖς πατράσιν ἐν τοῖς προφήταις, ἐπ᾽ ἐσχάτων τῶν ἡμερῶν τούτων ἐλάλησεν ἡμῖν ἐν υἱῷ',
+      note: "The prophētai were partial and varied (polymeros, polytropos — many portions, many ways). Christ is the final and complete word — not one of the prophets but the one to whom they all pointed.",
+    },
+    {
+      reference: 'Amos 3:7',
+      english: '"Surely the Sovereign LORD does nothing without revealing his plan to his servants the prophets [nabi]."',
+      greek: 'כִּי לֹא יַעֲשֶׂה אֲדֹנָי יְהוִה דָּבָר כִּי אִם-גָּלָה סוֹדוֹ אֶל-עֲבָדָיו הַנְּבִיאִים',
+      note: "God's sod (council, secret) is revealed to his nabi before he acts. The prophet is not a guesser but an insider — one who has stood in the divine council (Jer 23:18) and heard.",
+    },
+  ],
+
+  justice: [
+    {
+      reference: 'Amos 5:24',
+      english: '"But let justice [mishpat] roll on like a river, righteousness like a never-failing stream."',
+      greek: 'וְיִגַּל כַּמַּיִם מִשְׁפָּט וּצְדָקָה כְּנַחַל אֵיתָן',
+      note: "Spoken against empty religious observance. The mishpat God desires is not liturgical correctness but the rolling torrent of social righteousness. MLK's most famous quotation.",
+    },
+    {
+      reference: 'Micah 6:8',
+      english: '"He has shown you, O mortal, what is good… to act justly [mishpat] and to love mercy and to walk humbly with your God."',
+      greek: 'הִגִּיד לְךָ אָדָם מַה-טּוֹב וּמָה-יְהוָה דֹּורֵשׁ מִמְּךָ כִּי אִם-עֲשׂוֹת מִשְׁפָּט',
+      note: "The three requirements distill the entire law: mishpat (structural justice), hesed (relational mercy), and humility. These cannot be ranked or separated — each requires the others.",
+    },
+    {
+      reference: 'Matthew 12:18–20',
+      english: '"He will proclaim justice [krisin] to the nations… till he has brought justice through to victory."',
+      greek: 'κρίσιν τοῖς ἔθνεσιν ἀπαγγελεῖ… ἕως ἂν ἐκβάλῃ εἰς νῖκος τὴν κρίσιν.',
+      note: "Matthew quotes Isaiah 42 (the Servant Song) about Jesus. The krisis he brings is not immediate condemnation but patient proclamation — tending the bruised reed until justice finally triumphs.",
+    },
+  ],
+
+  humility: [
+    {
+      reference: 'Philippians 2:3–8',
+      english: '"In humility [tapeinophrosynē] value others above yourselves… In your relationships with one another, have the same mindset as Christ Jesus, who… made himself nothing."',
+      greek: 'τῇ ταπεινοφροσύνῃ ἀλλήλους ἡγούμενοι ὑπερέχοντας ἑαυτῶν',
+      note: "The most complete NT statement of tapeinophrosynē, grounded in the Christological hymn that follows. Humility is not a posture we adopt — it is participation in Christ's own kenōsis.",
+    },
+    {
+      reference: 'Matthew 11:29',
+      english: '"Take my yoke upon you and learn from me, for I am gentle and humble in heart [tapeinos tē kardia], and you will find rest for your souls."',
+      greek: 'ἄρατε τὸν ζυγόν μου ἐφ᾽ ὑμᾶς καὶ μάθετε ἀπ᾽ ἐμοῦ, ὅτι πραΰς εἰμι καὶ ταπεινὸς τῇ καρδίᾳ',
+      note: "Jesus describes his own inner character: tapeinos (humble) in the kardia. Humility is not his strategy — it is his identity. And he says it gives rest (anapausis) to those who learn it.",
+    },
+    {
+      reference: 'Numbers 12:3',
+      english: '"Now Moses was a very humble [anav] man, more humble than anyone else on the face of the earth."',
+      greek: 'וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד מִכֹּל הָאָדָם אֲשֶׁר עַל-פְּנֵי הָאֲדָמָה',
+      note: "Moses, the leader of two million people, is the most anav person alive. The greatest leader is the most humble — not despite his leadership but because of what he had seen of God.",
+    },
+  ],
+
+  patience: [
+    {
+      reference: 'James 1:3–4',
+      english: '"The testing of your faith produces perseverance [hypomonēn]. Let perseverance finish its work so that you may be mature and complete."',
+      greek: 'τὸ δοκίμιον ὑμῶν τῆς πίστεως κατεργάζεται ὑπομονήν· ἡ δὲ ὑπομονὴ ἔργον τέλειον ἐχέτω',
+      note: "Hypomonē is not the absence of struggle but the product of it. Testing (dokimion — the proving of metal) produces the endurance that leads to maturity (teleios — complete). No shortcut bypasses this process.",
+    },
+    {
+      reference: 'Romans 5:3–4',
+      english: '"We also glory in our sufferings, because we know that suffering produces perseverance [hypomonēn]; perseverance, character; and character, hope."',
+      greek: 'καὶ καυχώμεθα ἐν ταῖς θλίψεσιν, εἰδότες ὅτι ἡ θλῖψις ὑπομονὴν κατεργάζεται',
+      note: "The chain: thlipsis (pressure/tribulation) → hypomonē → dokimē (proved character) → elpis (hope). Each link requires the previous one. Paul 'glories' in the beginning of the chain because he sees where it ends.",
+    },
+    {
+      reference: 'Isaiah 40:31',
+      english: '"But those who hope [qavah] in the LORD will renew their strength. They will soar on wings like eagles."',
+      greek: 'וְקוֹיֵ יְהוָה יַחֲלִיפוּ כֹחַ יַעֲלוּ אֵבֶר כַּנְּשָׁרִים',
+      note: "Qavah (to wait/hope expectantly) is the OT equivalent of hypomonē. The waiting is active — like a tensioned cord. The result is not just surviving but soaring: the eagle metaphor is upward momentum, not static endurance.",
+    },
+  ],
+
+  rest: [
+    {
+      reference: 'Matthew 11:28–30',
+      english: '"Come to me, all you who are weary and burdened, and I will give you rest [anapausin]."',
+      greek: 'δεῦτε πρός με πάντες οἱ κοπιῶντες καὶ πεφορτισμένοι, κἀγὼ ἀναπαύσω ὑμᾶς.',
+      note: "The great invitation — anapausin is both promised (I will give) and found (you will find). The rest Jesus gives is first received (come to me) then discovered through the yoke (learn from me). Active and passive.",
+    },
+    {
+      reference: 'Hebrews 4:9–11',
+      english: '"There remains, then, a Sabbath-rest [sabbatismos] for the people of God… Let us, therefore, make every effort to enter that rest."',
+      greek: 'ἄρα ἀπολείπεται σαββατισμὸς τῷ λαῷ τοῦ Θεοῦ',
+      note: "Sabbatismos appears only here in the NT — coined by the author. The eternal rest of God (Gen 2:2) remains available; Israel failed to enter in the wilderness; the church must press into it now by faith.",
+    },
+    {
+      reference: 'Psalm 23:2',
+      english: '"He makes me lie down in green pastures, he leads me beside quiet waters [menucha]."',
+      greek: 'בִּנְאוֹת דֶּשֶׁא יַרְבִּיצֵנִי עַל-מֵי מְנֻחוֹת יְנַהֲלֵנִי',
+      note: "Mei menuchot — 'waters of menucha.' The shepherd leads to places of deep rest. The sheep do not find these places alone — they are led. Divine rest is not found by striving but by following.",
+    },
+    {
+      reference: 'Genesis 2:2–3',
+      english: '"By the seventh day God had finished the work he had been doing; so on the seventh day he rested [shabbat] from all his work."',
+      greek: 'וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי מִכָּל-מְלַאכְתּוֹ אֲשֶׁר עָשָׂה',
+      note: "God's shabbat on the seventh day is not exhaustion but completeness — the enjoyment of finished work. The human Sabbath participates in God's own rest. The weekly shabbat declares that the work is God's, not ours.",
+    },
+  ],
+
+  praise: [
+    {
+      reference: 'Psalm 22:3',
+      english: '"Yet you are holy, enthroned on the praises [tehillot] of Israel."',
+      greek: 'וְאַתָּה קָדוֹשׁ יוֹשֵׁב תְּהִלּוֹת יִשְׂרָאֵל',
+      note: "God is enthroned (yoshev) on the tehillot — praise creates a throne for the King. This is not metaphor: the gathered praise of God's people is the space where divine presence settles. Worship precedes the presence.",
+    },
+    {
+      reference: 'Hebrews 13:15',
+      english: '"Through Jesus, therefore, let us continually offer to God a sacrifice of praise [aineseōs] — the fruit of lips that openly profess his name."',
+      greek: 'δι᾽ αὐτοῦ οὖν ἀναφέρωμεν θυσίαν αἰνέσεως διὰ παντὸς τῷ Θεῷ',
+      note: "Praise as sacrifice — something that costs, offered regardless of mood. The fruit of lips: praise is embodied, verbal, public. 'Through Jesus' — the mediating High Priest makes the offering acceptable.",
+    },
+    {
+      reference: 'Revelation 19:1–3',
+      english: '"Hallelujah! Salvation and glory and power belong to our God… Hallelujah! The smoke from her goes up for ever and ever."',
+      greek: 'Ἁλληλουϊά· ἡ σωτηρία καὶ ἡ δόξα καὶ ἡ δύναμις τοῦ Θεοῦ ἡμῶν',
+      note: "The halleluyah appears four times in Revelation 19 — the only NT occurrences. The Hebrew word of praise crosses into Greek unchanged, as if no translation could improve it. Heaven's praise is Israel's praise.",
+    },
+    {
+      reference: 'Psalm 150:6',
+      english: '"Let everything that has breath praise [halleluyah] the LORD."',
+      greek: 'כֹּל הַנְּשָׁמָה תְּהַלֵּל יָהּ הַלְלוּ-יָהּ',
+      note: "The final verse of the final psalm — the conclusion of the entire Tehillim. Every neshamah (breath/soul) that breathes is called to praise. The breadth of the halleluyah is as wide as life itself.",
+    },
+  ],
+
+  temple: [
+    {
+      reference: 'John 2:19–21',
+      english: '"Destroy this temple [naon], and I will raise it again in three days… the temple he had spoken of was his body."',
+      greek: 'λύσατε τὸν ναὸν τοῦτον καὶ ἐν τρισὶν ἡμέραις ἐγερῶ αὐτόν… ἔλεγεν περὶ τοῦ ναοῦ τοῦ σώματος αὐτοῦ.',
+      note: "The stone naos is replaced by the living naos of Christ's body. After the resurrection, the place of divine presence shifts from the building to the person — and then to his body the church.",
+    },
+    {
+      reference: '1 Corinthians 3:16',
+      english: '"Don\'t you know that you yourselves are God\'s temple [naos] and that God\'s Spirit dwells in your midst?"',
+      greek: 'Οὐκ οἴδατε ὅτι ναὸς Θεοῦ ἐστε καὶ τὸ πνεῦμα τοῦ Θεοῦ οἰκεῖ ἐν ὑμῖν;',
+      note: "The 'you' is plural — the community is the naos, not each individual in isolation. God's pneuma dwells in the gathered church. The architecture of the temple is replaced by the architecture of relationship.",
+    },
+    {
+      reference: '1 Kings 8:27',
+      english: '"But will God really dwell on earth? The heavens, even the highest heaven, cannot contain you. How much less this temple [hekal] I have built!"',
+      greek: 'כִּי הַאֻמְנָם יֵשֵׁב אֱלֹהִים עַל-הָאָרֶץ הִנֵּה הַשָּׁמַיִם וּשְׁמֵי הַשָּׁמַיִם לֹא יְכַלְכְּלוּךָ אַף כִּי-הַבַּיִת הַזֶּה',
+      note: "Solomon's prayer at the hekal's dedication — an honest theological question. The greatest building in Israel's history cannot contain God. The temple is a place of access, not a container.",
+    },
+  ],
+
+  compassion: [
+    {
+      reference: 'Matthew 9:36',
+      english: '"When he saw the crowds, he had compassion [esplagchnisthē] on them, because they were harassed and helpless, like sheep without a shepherd."',
+      greek: 'ἰδὼν δὲ τοὺς ὄχλους ἐσπλαγχνίσθη περὶ αὐτῶν, ὅτι ἦσαν ἐσκυλμένοι καὶ ἐρριμμένοι ὡσεὶ πρόβατα μὴ ἔχοντα ποιμένα.',
+      note: "Esplagchnisthē — the aorist passive: compassion came upon him. The sight of the harassed crowd moved Jesus at the gut level. This splagchna-moment leads to the commissioning of the twelve.",
+    },
+    {
+      reference: 'Luke 15:20',
+      english: '"But while he was still a long way off, his father saw him and was filled with compassion [esplagchnisthē]."',
+      greek: 'ἔτι δὲ αὐτοῦ μακρὰν ἀπέχοντος εἶδεν αὐτὸν ὁ πατὴρ αὐτοῦ καὶ ἐσπλαγχνίσθη',
+      note: "The father's splagchna precedes the son's arrival — he sees him while still far off. Divine compassion runs toward what it sees approaching, rather than waiting for full repentance before moving.",
+    },
+    {
+      reference: 'Isaiah 49:15',
+      english: '"Can a mother forget the baby at her breast… Though she may forget, I will not forget you!"',
+      greek: 'הֲתִשְׁכַּח אִשָּׁה עוּלָהּ מֵרַחֵם בֶּן-בִּטְנָהּ גַּם-אֵלֶּה תִשְׁכַּחְנָה וְאָנֹכִי לֹא אֶשְׁכָּחֵךְ',
+      note: "The rachamim passage — God's compassion described through the mother-child bond (rechem = womb). Even if the most powerful human love fails, God's womb-love does not. The strongest possible OT statement of divine faithfulness.",
+    },
+  ],
+
+  suffering: [
+    {
+      reference: 'Romans 8:18',
+      english: '"I consider that our present sufferings [pathēmata] are not worth comparing with the glory that will be revealed in us."',
+      greek: 'Λογίζομαι γὰρ ὅτι οὐκ ἄξια τὰ παθήματα τοῦ νῦν καιροῦ πρὸς τὴν μέλλουσαν δόξαν ἀποκαλυφθῆναι εἰς ἡμᾶς.',
+      note: "Logizomai — Paul reckons, calculates. The comparison is not poetic comfort but a reasoned assessment: the pathēmata are real but finite; the doxa is real and eternal. The math is decisive.",
+    },
+    {
+      reference: '1 Peter 4:13',
+      english: '"Rejoice inasmuch as you participate in the sufferings [pathēmasin] of Christ, so that you may be overjoyed when his glory is revealed."',
+      greek: 'ἀλλὰ καθὸ κοινωνεῖτε τοῖς τοῦ Χριστοῦ παθήμασιν χαίρετε',
+      note: "The pathēmata of Christ are koinōnia (fellowship, participation) — not punishment but solidarity. Suffering alongside Christ is the path into his glory, not a detour away from it.",
+    },
+    {
+      reference: 'Isaiah 53:3–4',
+      english: '"He was despised and rejected… a man of suffering [yagon], familiar with pain."',
+      greek: 'נִבְזֶה וַחֲדַל אִישִׁים אִישׁ מַכְאֹבוֹת וִידוּעַ חֹלִי',
+      note: "The Suffering Servant — yagon (grief) and makob (pain) as the Servant's credentials. Not despite the suffering but through it, he 'bore our sins' (53:4). The yagon is not meaningless — it is redemptive.",
+    },
+    {
+      reference: 'Psalm 34:18',
+      english: '"The LORD is close to the brokenhearted and saves those who are crushed in spirit."',
+      greek: 'קָרוֹב יְהוָה לְנִשְׁבְּרֵי-לֵב וְאֶת-דַּכְּאֵי-רוּחַ יוֹשִׁיעַ',
+      note: "Nishber-lev (broken of heart) and dak-ruach (crushed of spirit) — the most broken postures receive the nearest presence. God's proximity is proportional to the brokenness, not inversely.",
     },
   ],
 }
