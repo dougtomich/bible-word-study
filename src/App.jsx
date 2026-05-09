@@ -83,7 +83,7 @@ export default function App() {
             <span className="logo-greek">λόγος</span>
             <div className="logo-text">
               <h1>Bible Word Study</h1>
-              <p>Greek &amp; Hebrew word analysis</p>
+              <p>Tracing the Golden Thread of Scripture</p>
             </div>
           </div>
         </div>
@@ -238,9 +238,9 @@ export default function App() {
             {/* ARTICLES SECTION — always shown below word study */}
             <section className="articles-section">
               <div className="articles-section-header">
-                <h2 className="articles-section-title">Deep Study: Jesus in Every Word</h2>
+                <h2 className="articles-section-title">Deep Study</h2>
                 <p className="articles-section-sub">
-                  Long-form essays exploring how the original languages of Scripture point to who Jesus is, what he does, and why it matters.
+                  Long-form essays following the golden thread of Scripture — tracing how the original Hebrew and Greek words point to who Jesus is, what he does, and why it matters.
                 </p>
               </div>
               <div className="articles-grid">
@@ -265,7 +265,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>Bible Word Study Tool — built for pastors, teachers, and serious students of Scripture.</p>
+        <p>Bible Word Study &mdash; Tracing the Golden Thread of Scripture.</p>
         <p className="footer-sub">Definitions reference Thayer&apos;s Greek Lexicon, BDAG, and Brown-Driver-Briggs Hebrew.</p>
       </footer>
     </div>
