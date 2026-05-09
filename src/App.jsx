@@ -5,6 +5,28 @@ import { ARTICLES } from './articles.js'
 
 function renderArticleContent(text) {
   return text.split('\n\n').map((block, i) => {
+    // Table: every line in the block starts with |
+    const lines = block.trim().split('\n')
+    if (lines.length >= 2 && lines.every(l => l.trim().startsWith('|'))) {
+      const isSep = l => /^\|[\s|:-]+\|$/.test(l.trim())
+      const parseCells = l => l.trim().split('|').slice(1, -1).map(c => c.trim())
+      const headerCells = parseCells(lines[0])
+      const dataLines = lines.slice(1).filter(l => !isSep(l))
+      return (
+        <table key={i} className="article-table">
+          <thead>
+            <tr>{headerCells.map((h, j) => <th key={j}>{h}</th>)}</tr>
+          </thead>
+          <tbody>
+            {dataLines.map((row, ri) => (
+              <tr key={ri}>
+                {parseCells(row).map((c, ci) => <td key={ci}>{c}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )
+    }
     if (block.startsWith('**') && block.endsWith('**') && !block.slice(2).includes('**')) {
       return <h3 key={i} className="article-subhead">{block.slice(2, -2)}</h3>
     }
