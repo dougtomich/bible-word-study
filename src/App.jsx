@@ -2,11 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import { GREEK_WORDS, KEY_PASSAGES } from './data.js'
 
-const TESTAMENT_LABELS = { NT: 'New Testament', OT: 'Old Testament', Both: 'Both Testaments' }
-
 export default function App() {
   const [searchInput, setSearchInput] = useState('')
-  const [testament, setTestament] = useState('Both')
   const [results, setResults] = useState(null)
   const [searched, setSearched] = useState(false)
 
@@ -23,16 +20,11 @@ export default function App() {
       return
     }
 
-    const filtered = testament === 'Both'
-      ? words
-      : words.filter(w => w.testament === testament)
-
-    setResults({ word: term, definitions: filtered, passages })
+    setResults({ word: term, definitions: words, passages })
   }
 
   const handlePill = (word) => {
     setSearchInput(word)
-    setTestament('Both')
     const words = GREEK_WORDS[word]
     const passages = KEY_PASSAGES[word] || []
     setResults({ word, definitions: words, passages })
@@ -71,15 +63,6 @@ export default function App() {
                 onChange={e => setSearchInput(e.target.value)}
                 placeholder='Try "love", "faith", "grace", "peace"…'
               />
-              <select
-                className="testament-select"
-                value={testament}
-                onChange={e => setTestament(e.target.value)}
-              >
-                <option value="Both">Both Testaments</option>
-                <option value="NT">New Testament only</option>
-                <option value="OT">Old Testament only</option>
-              </select>
               <button className="search-btn" type="submit">Search</button>
             </div>
           </form>
@@ -105,7 +88,6 @@ export default function App() {
             <div className="results-header">
               <h2>
                 Results for <span className="highlight">&ldquo;{results.word}&rdquo;</span>
-                <span className="testament-badge">{TESTAMENT_LABELS[testament]}</span>
               </h2>
               <p className="results-count">
                 {results.definitions.length} original word{results.definitions.length !== 1 ? 's' : ''} found
