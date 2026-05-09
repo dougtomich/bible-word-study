@@ -8,6 +8,11 @@
     <meta name="description" content="Search Bible words to discover the original Greek and Hebrew meanings, etymology, Strong's numbers, and key passages." />
   </head>
   <body>
+    <!-- Hidden form for Netlify bot detection (React SPA forms require this) -->
+    <form name="lead-magnet" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="email" name="email" />
+      <input name="bot-field" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

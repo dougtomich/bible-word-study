@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { GREEK_WORDS, KEY_PASSAGES } from './data.js'
 import { ARTICLES } from './articles.js'
+import { downloadWordGuide } from './wordGuidePdf.js'
 
 function renderArticleContent(text) {
   return text.split('\n\n').map((block, i) => {
@@ -57,6 +58,8 @@ export default function App() {
   const [results, setResults] = useState(null)
   const [searched, setSearched] = useState(false)
   const [activeArticle, setActiveArticle] = useState(null)
+  const [leadEmail, setLeadEmail] = useState('')
+  const [leadState, setLeadState] = useState('idle') // idle | submitting | done | error
 
   const handleSearch = (e) => {
     e.preventDefault()
@@ -93,6 +96,20 @@ export default function App() {
 
   const handleArticleClose = () => {
     setActiveArticle(null)
+  }
+
+  const handleLeadSubmit = async (e) => {
+    e.preventDefault()
+    if (!leadEmail.trim()) return
+    setLeadState('submitting')
+    try {
+      const body = new URLSearchParams({ 'form-name': 'lead-magnet', email: leadEmail }).toString()
+      await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body })
+      setLeadState('done')
+      downloadWordGuide()
+    } catch {
+      setLeadState('error')
+    }
   }
 
   const availableWords = Object.keys(GREEK_WORDS)
@@ -256,6 +273,61 @@ export default function App() {
                 </div>
               </section>
             )}
+
+            {/* LEAD MAGNET */}
+            <section className="lead-magnet">
+              <div className="lm-inner">
+                <div className="lm-left">
+                  <div className="lm-eyebrow">Free Download</div>
+                  <h2 className="lm-title">10 Greek &amp; Hebrew Words Every Christian Should Know</h2>
+                  <p className="lm-sub">A beautifully designed PDF guide — original scripts, transliterations, definitions, key verses, and theological notes for ten words that will change how you read Scripture.</p>
+                  <ul className="lm-features">
+                    <li>ἀγάπη <span>agapē</span> — the love that chooses</li>
+                    <li>חֶסֶד <span>hesed</span> — covenant lovingkindness</li>
+                    <li>λόγος <span>logos</span> — the Word made flesh</li>
+                    <li>שָׁלוֹם <span>shalom</span> — wholeness, not just peace</li>
+                    <li className="lm-more">+ 6 more words with full notes &amp; key passages</li>
+                  </ul>
+                </div>
+                <div className="lm-right">
+                  <div className="lm-form-card">
+                    <div className="lm-form-icon">λ</div>
+                    {leadState === 'done' ? (
+                      <div className="lm-success">
+                        <div className="lm-success-check">✓</div>
+                        <h3>Check your pop-up window!</h3>
+                        <p>Your PDF guide is opening now. In the print dialog, choose <strong>Save as PDF</strong> to save it to your device.</p>
+                        <button className="lm-reopen-btn" onClick={downloadWordGuide}>Re-open PDF ↗</button>
+                      </div>
+                    ) : (
+                      <>
+                        <h3 className="lm-form-title">Get the Free Guide</h3>
+                        <p className="lm-form-sub">Enter your email and your PDF downloads instantly.</p>
+                        <form className="lm-form" onSubmit={handleLeadSubmit}>
+                          <input
+                            className="lm-input"
+                            type="email"
+                            name="email"
+                            required
+                            placeholder="your@email.com"
+                            value={leadEmail}
+                            onChange={e => setLeadEmail(e.target.value)}
+                            disabled={leadState === 'submitting'}
+                          />
+                          <button className="lm-btn" type="submit" disabled={leadState === 'submitting'}>
+                            {leadState === 'submitting' ? 'Sending…' : 'Download Free PDF →'}
+                          </button>
+                          {leadState === 'error' && (
+                            <p className="lm-error">Something went wrong. <button type="button" className="lm-error-retry" onClick={downloadWordGuide}>Click here to download anyway.</button></p>
+                          )}
+                        </form>
+                        <p className="lm-privacy">No spam. Unsubscribe anytime.</p>
+                      </>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </section>
 
             {/* ARTICLES SECTION — always shown below word study */}
             <section className="articles-section">
