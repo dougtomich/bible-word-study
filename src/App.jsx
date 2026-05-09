@@ -101,10 +101,6 @@ export default function App() {
               <p className="article-full-read-time">{activeArticle.readTime}</p>
               <h2 className="article-full-title">{activeArticle.title}</h2>
               <p className="article-full-subtitle">{activeArticle.subtitle}</p>
-              <div className="article-full-byline">
-                <span className="article-byline-name">Tim Mackie</span>
-                <span className="article-byline-role">Co-founder, BibleProject</span>
-              </div>
               <div className="article-full-divider" />
               <div className="article-full-body">
                 {renderArticleContent(activeArticle.content)}
@@ -258,7 +254,6 @@ export default function App() {
                     <h3 className="article-card-title">{article.title}</h3>
                     <p className="article-card-subtitle">{article.subtitle}</p>
                     <div className="article-card-footer">
-                      <span className="article-card-author">Tim Mackie</span>
                       <span className="article-card-cta">Read essay →</span>
                     </div>
                   </button>
